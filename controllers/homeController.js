@@ -1,4 +1,4 @@
-const Student = require('../models/studentSchema');
+const Student = require('../models/Student');
 
 // render home page
 module.exports.homePage = async function (req, res) {

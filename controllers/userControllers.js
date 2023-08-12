@@ -1,5 +1,5 @@
-const User = require('../models/userSchema');
-const Student = require('../models/studentSchema');
+const User = require('../models/User');
+const Student = require('../models/Student');
 const fs = require('fs');
 const fastcsv = require('fast-csv');
 
